@@ -1,0 +1,655 @@
+regular 
+EPOCH: 1
+3
+2
+Train error: 0.0711898
+CV error: 0.0625
+EPOCH: 2
+Train error: 0.0397742
+CV error: 0.0404297
+EPOCH: 3
+Train error: 0.0307038
+CV error: 0.0331055
+EPOCH: 4
+Train error: 0.0205409
+CV error: 0.0272461
+EPOCH: 5
+Train error: 0.016105
+CV error: 0.0239258
+EPOCH: 6
+Train error: 0.0151947
+CV error: 0.0219727
+EPOCH: 7
+Train error: 0.0102622
+CV error: 0.0213867
+EPOCH: 8
+Train error: 0.0122815
+CV error: 0.0229492
+EPOCH: 9
+Train error: 0.00839182
+CV error: 0.0199219
+EPOCH: 10
+Train error: 0.00668697
+CV error: 0.0185547
+EPOCH: 11
+Train error: 0.00584282
+CV error: 0.0174805
+EPOCH: 12
+Train error: 0.00531316
+CV error: 0.0194336
+EPOCH: 13
+Train error: 0.00435315
+CV error: 0.0166992
+EPOCH: 14
+Train error: 0.00428694
+CV error: 0.0179687
+EPOCH: 15
+Train error: 0.00362487
+CV error: 0.0180664
+EPOCH: 16
+Train error: 0.00340969
+CV error: 0.0167969
+EPOCH: 17
+Train error: 0.00283038
+CV error: 0.0180664
+EPOCH: 18
+Train error: 0.00243313
+CV error: 0.01875
+EPOCH: 19
+Train error: 0.0021683
+CV error: 0.0148437
+EPOCH: 20
+Train error: 0.00223451
+CV error: 0.0171875
+EPOCH: 21
+Train error: 0.00291314
+CV error: 0.0166992
+EPOCH: 22
+Train error: 0.0021352
+CV error: 0.0167969
+EPOCH: 23
+Train error: 0.00188692
+CV error: 0.0161133
+EPOCH: 24
+Train error: 0.00205244
+CV error: 0.0168945
+EPOCH: 25
+Train error: 0.00155588
+CV error: 0.0164062
+EPOCH: 26
+Train error: 0.0012745
+CV error: 0.0168945
+EPOCH: 27
+Train error: 0.00147312
+CV error: 0.0162109
+EPOCH: 28
+Train error: 0.00119174
+CV error: 0.0146484
+EPOCH: 29
+Train error: 0.00125794
+CV error: 0.0161133
+EPOCH: 30
+Train error: 0.00137381
+CV error: 0.0151367
+EPOCH: 31
+Train error: 0.000877251
+CV error: 0.0160156
+EPOCH: 32
+Train error: 0.000678628
+CV error: 0.015625
+EPOCH: 33
+Train error: 0.000844147
+CV error: 0.0163086
+EPOCH: 34
+Train error: 0.00069518
+CV error: 0.015332
+EPOCH: 35
+Train error: 0.000529661
+CV error: 0.0157227
+EPOCH: 36
+Train error: 0.000794491
+CV error: 0.0164062
+EPOCH: 37
+Train error: 0.000546213
+CV error: 0.015918
+EPOCH: 38
+Train error: 0.000463453
+CV error: 0.0161133
+EPOCH: 39
+Train error: 0.000546213
+CV error: 0.015332
+EPOCH: 40
+Train error: 0.000678628
+CV error: 0.0150391
+EPOCH: 41
+Train error: 0.000463453
+CV error: 0.0154297
+EPOCH: 42
+Train error: 0.000480005
+CV error: 0.0151367
+EPOCH: 43
+Train error: 0.000562765
+CV error: 0.0155273
+EPOCH: 44
+Train error: 0.000364142
+CV error: 0.0158203
+EPOCH: 45
+Train error: 0.000364142
+CV error: 0.0155273
+EPOCH: 46
+Train error: 0.000413798
+CV error: 0.0155273
+EPOCH: 47
+Train error: 0.000314486
+CV error: 0.0131836
+EPOCH: 48
+Train error: 0.00034759
+CV error: 0.0138672
+EPOCH: 49
+Train error: 0.000314486
+CV error: 0.0135742
+EPOCH: 50
+Train error: 0.000264831
+CV error: 0.0151367
+EPOCH: 51
+Train error: 0.000297934
+CV error: 0.0147461
+EPOCH: 52
+Train error: 0.000231727
+CV error: 0.0141602
+EPOCH: 53
+Train error: 0.000215175
+CV error: 0.0141602
+EPOCH: 54
+Train error: 0.000248279
+CV error: 0.0133789
+EPOCH: 55
+Train error: 0.000331038
+CV error: 0.0145508
+EPOCH: 56
+Train error: 0.000281382
+CV error: 0.0142578
+EPOCH: 57
+Train error: 0.000281382
+CV error: 0.0143555
+EPOCH: 58
+Train error: 0.000182071
+CV error: 0.0145508
+EPOCH: 59
+Train error: 0.000165519
+CV error: 0.0142578
+EPOCH: 60
+Train error: 0.000165519
+CV error: 0.0147461
+EPOCH: 61
+Train error: 0.000281382
+CV error: 0.0143555
+EPOCH: 62
+Train error: 0.000264831
+CV error: 0.0144531
+EPOCH: 63
+Train error: 0.000231727
+CV error: 0.0135742
+EPOCH: 64
+Train error: 0.000165519
+CV error: 0.0145508
+EPOCH: 65
+Train error: 0.000148967
+CV error: 0.0147461
+EPOCH: 66
+Train error: 0.000215175
+CV error: 0.0137695
+EPOCH: 67
+Train error: 8.27595e-05
+CV error: 0.0145508
+EPOCH: 68
+Train error: 0.000132415
+CV error: 0.0144531
+EPOCH: 69
+Train error: 6.62076e-05
+CV error: 0.0149414
+EPOCH: 70
+Train error: 9.93114e-05
+CV error: 0.0144531
+EPOCH: 71
+Train error: 9.93114e-05
+CV error: 0.0137695
+EPOCH: 72
+Train error: 0.000231727
+CV error: 0.015332
+EPOCH: 73
+
+8 bit fixed max
+EPOCH: 1
+Train error: 0.0838189
+CV error: 0.0804688
+EPOCH: 2
+Train error: 0.0451702
+CV error: 0.0481445
+EPOCH: 3
+Train error: 0.0284196
+CV error: 0.0313477
+EPOCH: 4
+Train error: 0.0199616
+CV error: 0.0282227
+EPOCH: 5
+Train error: 0.0142843
+CV error: 0.0242187
+EPOCH: 6
+Train error: 0.0114208
+CV error: 0.0204102
+EPOCH: 7
+Train error: 0.0104939
+CV error: 0.0208984
+EPOCH: 8
+Train error: 0.00880561
+CV error: 0.0197266
+EPOCH: 9
+Train error: 0.00711732
+CV error: 0.019043
+EPOCH: 10
+Train error: 0.00604145
+CV error: 0.018457
+EPOCH: 11
+Train error: 0.00531316
+CV error: 0.0169922
+EPOCH: 12
+Train error: 0.00453522
+CV error: 0.0179687
+EPOCH: 13
+Train error: 0.00402211
+CV error: 0.0169922
+EPOCH: 14
+Train error: 0.00307865
+CV error: 0.019043
+EPOCH: 15
+Train error: 0.00327728
+CV error: 0.0173828
+EPOCH: 16
+Train error: 0.00187037
+CV error: 0.0154297
+EPOCH: 17
+Train error: 0.00218485
+CV error: 0.0174805
+EPOCH: 18
+Train error: 0.00183726
+CV error: 0.0176758
+EPOCH: 19
+Train error: 0.00162209
+CV error: 0.0161133
+EPOCH: 20
+Train error: 0.00165519
+CV error: 0.0166992
+EPOCH: 21
+Train error: 0.0021352
+CV error: 0.0183594
+EPOCH: 22
+Train error: 0.00132415
+CV error: 0.0181641
+EPOCH: 23
+Train error: 0.00243313
+CV error: 0.0188477
+EPOCH: 24
+Train error: 0.00129105
+CV error: 0.0169922
+EPOCH: 25
+Train error: 0.000893803
+CV error: 0.0157227
+EPOCH: 26
+Train error: 0.000993114
+CV error: 0.0167969
+EPOCH: 27
+Train error: 0.000976562
+CV error: 0.015918
+EPOCH: 28
+Train error: 0.000595869
+CV error: 0.0141602
+EPOCH: 29
+Train error: 0.000976562
+CV error: 0.0147461
+EPOCH: 30
+Train error: 0.00102622
+CV error: 0.015332
+EPOCH: 31
+Train error: 0.000860699
+CV error: 0.0161133
+EPOCH: 32
+Train error: 0.000628972
+CV error: 0.0155273
+EPOCH: 33
+Train error: 0.000513109
+CV error: 0.0144531
+EPOCH: 34
+Train error: 0.00043035
+CV error: 0.0149414
+EPOCH: 35
+Train error: 0.00043035
+CV error: 0.0147461
+EPOCH: 36
+Train error: 0.000513109
+CV error: 0.0146484
+EPOCH: 37
+Train error: 0.000264831
+CV error: 0.0157227
+EPOCH: 38
+Train error: 0.000231727
+CV error: 0.0163086
+EPOCH: 39
+Train error: 0.000215175
+CV error: 0.0155273
+EPOCH: 40
+Train error: 0.000115863
+CV error: 0.0148437
+EPOCH: 41
+Train error: 0.000331038
+CV error: 0.0161133
+EPOCH: 42
+Train error: 0.000281382
+CV error: 0.015918
+EPOCH: 43
+Train error: 0.00034759
+CV error: 0.0150391
+EPOCH: 44
+Train error: 0.000248279
+CV error: 0.0163086
+EPOCH: 45
+Train error: 0.000231727
+CV error: 0.0141602
+EPOCH: 46
+Train error: 0.000314486
+CV error: 0.0150391
+EPOCH: 47
+Train error: 0.00034759
+CV error: 0.0141602
+EPOCH: 48
+Train error: 0.000198623
+CV error: 0.0137695
+EPOCH: 49
+Train error: 0.000115863
+CV error: 0.0136719
+EPOCH: 50
+Train error: 0.000182071
+CV error: 0.0139648
+EPOCH: 51
+Train error: 0.000182071
+CV error: 0.0147461
+EPOCH: 52
+Train error: 0.000198623
+CV error: 0.0142578
+EPOCH: 53
+Train error: 9.93114e-05
+CV error: 0.0144531
+EPOCH: 54
+Train error: 9.93114e-05
+CV error: 0.0141602
+EPOCH: 55
+Train error: 9.93114e-05
+CV error: 0.0158203
+EPOCH: 56
+Train error: 9.93114e-05
+CV error: 0.0144531
+EPOCH: 57
+Train error: 0.000182071
+CV error: 0.0145508
+EPOCH: 58
+Train error: 4.96557e-05
+CV error: 0.0131836
+EPOCH: 59
+Train error: 4.96557e-05
+CV error: 0.0135742
+EPOCH: 60
+Train error: 9.93114e-05
+CV error: 0.0155273
+EPOCH: 61
+Train error: 3.31038e-05
+CV error: 0.0140625
+EPOCH: 62
+Train error: 9.93114e-05
+CV error: 0.0144531
+EPOCH: 63
+Train error: 8.27595e-05
+CV error: 0.0144531
+EPOCH: 64
+Train error: 8.27595e-05
+CV error: 0.0143555
+EPOCH: 65
+Train error: 6.62076e-05
+CV error: 0.0141602
+EPOCH: 66
+Train error: 9.93114e-05
+CV error: 0.0141602
+EPOCH: 67
+Train error: 3.31038e-05
+CV error: 0.0152344
+EPOCH: 68
+Train error: 8.27595e-05
+CV error: 0.0140625
+EPOCH: 69
+Train error: 6.62076e-05
+CV error: 0.0142578
+EPOCH: 70
+Train error: 4.96557e-05
+CV error: 0.0154297
+EPOCH: 71
+Train error: 4.96557e-05
+CV error: 0.0149414
+EPOCH: 72
+
+
+8 bit with rolling max grad update
+
+EPOCH: 1
+3
+Train error: 0.071438
+CV error: 0.0681641
+EPOCH: 2
+Train error: 0.0379866
+CV error: 0.0375
+EPOCH: 3
+Train error: 0.0319617
+CV error: 0.0355469
+EPOCH: 4
+Train error: 0.0190843
+CV error: 0.0277344
+EPOCH: 5
+Train error: 0.0169326
+CV error: 0.025
+EPOCH: 6
+Train error: 0.0128608
+CV error: 0.0210938
+EPOCH: 7
+Train error: 0.00933528
+CV error: 0.0208008
+EPOCH: 8
+Train error: 0.00913665
+CV error: 0.021582
+EPOCH: 9
+Train error: 0.00721663
+CV error: 0.0183594
+EPOCH: 10
+Train error: 0.00528006
+CV error: 0.0176758
+EPOCH: 11
+Train error: 0.00539592
+CV error: 0.0186523
+EPOCH: 12
+Train error: 0.00471729
+CV error: 0.0181641
+EPOCH: 13
+Train error: 0.00466764
+CV error: 0.0176758
+EPOCH: 14
+Train error: 0.00334349
+CV error: 0.0175781
+EPOCH: 15
+Train error: 0.00269796
+CV error: 0.0173828
+EPOCH: 16
+Train error: 0.00281382
+CV error: 0.0176758
+EPOCH: 17
+Train error: 0.00221796
+CV error: 0.0167969
+EPOCH: 18
+Train error: 0.00177105
+CV error: 0.0155273
+EPOCH: 19
+Train error: 0.00168829
+CV error: 0.0163086
+EPOCH: 20
+Train error: 0.00167174
+CV error: 0.015918
+EPOCH: 21
+Train error: 0.00190347
+CV error: 0.0174805
+EPOCH: 22
+Train error: 0.00205244
+CV error: 0.0177734
+EPOCH: 23
+Train error: 0.00142346
+CV error: 0.0168945
+EPOCH: 24
+Train error: 0.00124139
+CV error: 0.0164062
+EPOCH: 25
+Train error: 0.0013076
+CV error: 0.0157227
+EPOCH: 26
+Train error: 0.000827595
+CV error: 0.0167969
+EPOCH: 27
+Train error: 0.00102622
+CV error: 0.0155273
+EPOCH: 28
+Train error: 0.000794491
+CV error: 0.0141602
+EPOCH: 29
+Train error: 0.00109243
+CV error: 0.0161133
+EPOCH: 30
+Train error: 0.000628972
+CV error: 0.0154297
+EPOCH: 31
+Train error: 0.000628972
+CV error: 0.0164062
+EPOCH: 32
+Train error: 0.000811043
+CV error: 0.015332
+EPOCH: 33
+Train error: 0.000314486
+CV error: 0.015625
+EPOCH: 34
+Train error: 0.000678628
+CV error: 0.0157227
+EPOCH: 35
+Train error: 0.000529661
+CV error: 0.0151367
+EPOCH: 36
+Train error: 0.000794491
+CV error: 0.0158203
+EPOCH: 37
+Train error: 0.000446901
+CV error: 0.0158203
+EPOCH: 38
+Train error: 0.000380694
+CV error: 0.0166992
+EPOCH: 39
+Train error: 0.00043035
+CV error: 0.0148437
+EPOCH: 40
+Train error: 0.000248279
+CV error: 0.0150391
+EPOCH: 41
+Train error: 0.000281382
+CV error: 0.0149414
+EPOCH: 42
+Train error: 0.000331038
+CV error: 0.0152344
+EPOCH: 43
+Train error: 0.00034759
+CV error: 0.015332
+EPOCH: 44
+Train error: 0.000231727
+CV error: 0.0158203
+EPOCH: 45
+Train error: 0.000314486
+CV error: 0.0150391
+EPOCH: 46
+Train error: 0.000314486
+CV error: 0.0152344
+EPOCH: 47
+Train error: 0.000364142
+CV error: 0.0140625
+EPOCH: 48
+Train error: 0.000182071
+CV error: 0.0133789
+EPOCH: 49
+Train error: 0.000182071
+CV error: 0.0143555
+EPOCH: 50
+Train error: 0.000231727
+CV error: 0.0147461
+EPOCH: 51
+Train error: 0.000148967
+CV error: 0.0141602
+EPOCH: 52
+Train error: 0.000132415
+CV error: 0.0135742
+EPOCH: 53
+Train error: 0.000165519
+CV error: 0.0141602
+EPOCH: 54
+Train error: 8.27595e-05
+CV error: 0.0147461
+EPOCH: 55
+Train error: 0.000115863
+CV error: 0.0140625
+EPOCH: 56
+Train error: 6.62076e-05
+CV error: 0.0136719
+EPOCH: 57
+Train error: 0.000182071
+CV error: 0.0128906
+EPOCH: 58
+Train error: 9.93114e-05
+CV error: 0.0123047
+EPOCH: 59
+Train error: 6.62076e-05
+CV error: 0.0138672
+EPOCH: 60
+Train error: 9.93114e-05
+CV error: 0.0152344
+EPOCH: 61
+Train error: 8.27595e-05
+CV error: 0.0142578
+EPOCH: 62
+Train error: 0.000198623
+CV error: 0.0129883
+EPOCH: 63
+Train error: 6.62076e-05
+CV error: 0.0142578
+EPOCH: 64
+Train error: 6.62076e-05
+CV error: 0.0143555
+EPOCH: 65
+Train error: 8.27595e-05
+CV error: 0.0138672
+EPOCH: 66
+Train error: 0.000148967
+CV error: 0.0136719
+EPOCH: 67
+Train error: 9.93114e-05
+CV error: 0.0132813
+EPOCH: 68
+Train error: 6.62076e-05
+CV error: 0.0143555
+EPOCH: 69
+Train error: 8.27595e-05
+CV error: 0.0145508
+EPOCH: 70
+Train error: 0.000132415
+CV error: 0.0143555
+EPOCH: 71
+Train error: 3.31038e-05
+CV error: 0.0144531
+

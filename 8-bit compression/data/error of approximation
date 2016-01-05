@@ -1,0 +1,121 @@
+8 bit
+normal distribution std = 0.2 mean = 0:
+relative error: 0.025
+max relative error: 0.865
+median relative: 0.018
+
+abs error: 0.00292436
+max abs error: 0.0169874
+median abs error: 0.00197179
+
+
+8 bit with 2-bit exponents and 6-bit mantissa
+relative error for numbers > x.x32 -> 0.25
+max relative error: 0.5
+median relative error: 0.2?
+
+abs error: ?
+max abs error: 0.05
+median abs error: 0.25
+
+
+
+
+
+uniform
+8-bit
+abs: 0.00428109
+rel: 0.0182543
+rel max: 1
+8-bit optimal
+abs: 0.00070559
+rel: 0.0482497
+rel max: 1
+8-bit standard
+abs: 0.00171071
+rel: 0.0722194
+
+mean 0, std 1
+8-bit
+abs: 0.000470964
+rel: 0.0246962
+rel max: 1
+8-bit optimal
+abs: 0.00925494
+rel: 0.0627827
+rel max: 1
+8-bit standard
+abs: 0.0103979
+rel: 0.0688107
+rel max: 1
+
+mean 0, std 10
+8-bit
+abs: 0.048821
+rel: 0.0249314
+rel max: 1
+8-bit optimal
+abs: 0.926476
+rel: 0.0628104
+rel max: 0.233333
+8-bit standard
+abs: 1.06608
+rel: 0.0718872
+rel max: 0.333333
+
+mean 0, std 0.2
+8-bit
+abs: 1.93442e-05
+rel: 0.0248794
+rel max: 1
+8-bit optimal
+abs: 0.000226077
+rel: 0.0657719
+rel max: 1
+8-bit standard
+abs: 0.000552291
+rel: 0.0826284
+rel max: 1
+
+
+mean 10, std 0.2
+8-bit
+abs: 0.00763312
+rel: 0.00717393
+rel max: 1
+8-bit optimal
+abs: 0.216659
+rel: 0.0389866
+rel max: 0.102511
+8-bit standard
+abs: 0.038398
+rel: 0.0158093
+rel max: 0.109984
+
+mean 10, std 1
+8-bit
+abs: 0.0140979
+rel: 0.0098471
+rel max: 1
+8-bit optimal
+abs: 0.53347
+rel: 0.0524263
+rel max: 0.179487
+8-bit standard
+abs: 0.153595
+rel: 0.0326839
+rel max: 0.185504
+
+mean 10, std 10
+8-bit
+abs: 0.0757514
+rel: 0.02243
+rel max: 1
+8-bit optimal
+abs: 1.72887
+rel: 0.0682953
+rel max: 1
+8-bit standard
+abs: 2.73626
+rel: 0.0766134
+rel max: 1

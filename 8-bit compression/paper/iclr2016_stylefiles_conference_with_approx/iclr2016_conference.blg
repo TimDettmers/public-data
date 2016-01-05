@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: iclr2016_conference.aux
+The style file: iclr2016_conference.bst
+Database file #1: iclr2016_conference.bib
+Warning--there's a number but no series in collobert2011torch7
+You've used 18 entries,
+            2773 wiz_defined-function locations,
+            688 strings with 8346 characters,
+and the built_in function-call counts, 9728 in all, are:
+= -- 834
+> -- 661
+< -- 11
++ -- 222
+- -- 204
+* -- 794
+:= -- 1465
+add.period$ -- 54
+call.type$ -- 18
+change.case$ -- 121
+chr.to.int$ -- 18
+cite$ -- 37
+duplicate$ -- 441
+empty$ -- 745
+format.name$ -- 226
+if$ -- 2058
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 17
+newline$ -- 97
+num.names$ -- 72
+pop$ -- 260
+preamble$ -- 1
+purify$ -- 103
+quote$ -- 0
+skip$ -- 367
+stack$ -- 0
+substring$ -- 303
+swap$ -- 81
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 198
+warning$ -- 1
+while$ -- 76
+width$ -- 0
+write$ -- 234
+(There was 1 warning)

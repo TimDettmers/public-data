@@ -1,0 +1,79 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{schmidhuber2015deep}
+\citation{ciresan2012multi,dahl2012context,krizhevsky2012imagenet}
+\citation{chilimbi2014project,coates2013deep,dean2012large,wu2015deep}
+\citation{rumelhart1988learning}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\citation{hochreiter1997long}
+\citation{seide20141}
+\citation{hochreiter2001gradient}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background}{2}{section.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Data parallelism}{2}{subsection.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Model parallelism}{2}{subsection.2.2}}
+\citation{krizhevsky2012imagenet}
+\citation{krizhevsky2014one}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}General bottlenecks}{3}{subsection.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}PCIe switches}{3}{subsubsection.2.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}Bandwidth and latency}{3}{subsubsection.2.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Optimal parallelism in convolutional nets}{3}{subsection.2.4}}
+\citation{vanhoucke2011improving}
+\@writefile{toc}{\contentsline {section}{\numberline {3}8-bit approximation}{4}{section.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Designing 8-bit data types}{4}{subsection.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Implementation and computational performance}{4}{subsection.3.2}}
+\citation{tieleman2012lecture}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Anatomy of the four different 8-bit data types. Note that the dynamic data type shown here is a specific example and the number of bits for exponent and for the tree varies between individual floating point numbers.\relax }}{5}{figure.caption.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Speedup}{5}{subsection.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Approximation error}{5}{subsection.3.4}}
+\citation{seide20141}
+\citation{seide20141}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Average transfer time for 1-bit quantization and 8-bit approximation compared to 32-bit transfers.\relax }}{6}{figure.caption.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Approximation errors on different data sets, and for different layers.\relax }}{7}{table.caption.3}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{sample-table}{{1}{7}{Approximation errors on different data sets, and for different layers.\relax }{table.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Improved performance}{7}{subsection.3.5}}
+\citation{courbariaux2014low}
+\citation{goodfellow2013maxout}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Classification train and test error for the 8-bit dynamic data type used in AlexNet on the ImageNet dataset.\relax }}{8}{figure.caption.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Average misclassification error on MNIST over 8 runs (2 runs for 10 layers) for model parallelism for 32-bit vs 8-bit neural networks with 4 hidden layers and RMSProp.\relax }}{8}{figure.caption.5}}
+\citation{seide20141}
+\citation{collobert2011torch7}
+\bibdata{iclr2016_conference}
+\bibcite{chilimbi2014project}{{1}{2014}{{Chilimbi et~al.}}{{Chilimbi, Suzue, Apacible, and Kalyanaraman}}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Comparison to other methods}{9}{section.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dynamic fixed point}{9}{subsection.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}1-bit quantization}{9}{subsection.4.2}}
+\bibcite{ciresan2012multi}{{2}{2012}{{Ciresan et~al.}}{{Ciresan, Meier, and Schmidhuber}}}
+\bibcite{coates2013deep}{{3}{2013}{{Coates et~al.}}{{Coates, Huval, Wang, Wu, Catanzaro, and Andrew}}}
+\bibcite{collobert2011torch7}{{4}{2011}{{Collobert et~al.}}{{Collobert, Kavukcuoglu, and Farabet}}}
+\bibcite{courbariaux2014low}{{5}{2014}{{Courbariaux et~al.}}{{Courbariaux, Bengio, and David}}}
+\bibcite{dahl2012context}{{6}{2012}{{Dahl et~al.}}{{Dahl, Yu, Deng, and Acero}}}
+\bibcite{dean2012large}{{7}{2012}{{Dean et~al.}}{{Dean, Corrado, Monga, Chen, Devin, Mao, Senior, Tucker, Yang, Le, et~al.}}}
+\bibcite{goodfellow2013maxout}{{8}{2013}{{Goodfellow et~al.}}{{Goodfellow, Warde-Farley, Mirza, Courville, and Bengio}}}
+\bibcite{hochreiter1997long}{{9}{1997}{{Hochreiter \& Schmidhuber}}{{Hochreiter and Schmidhuber}}}
+\bibcite{hochreiter2001gradient}{{10}{2001}{{Hochreiter et~al.}}{{Hochreiter, Bengio, Frasconi, and Schmidhuber}}}
+\bibcite{krizhevsky2014one}{{11}{2014}{{Krizhevsky}}{{}}}
+\bibcite{krizhevsky2012imagenet}{{12}{2012}{{Krizhevsky et~al.}}{{Krizhevsky, Sutskever, and Hinton}}}
+\bibcite{rumelhart1988learning}{{13}{1988}{{Rumelhart et~al.}}{{Rumelhart, Hinton, and Williams}}}
+\bibcite{schmidhuber2015deep}{{14}{2015}{{Schmidhuber}}{{}}}
+\bibcite{seide20141}{{15}{2014}{{Seide et~al.}}{{Seide, Fu, Droppo, Li, and Yu}}}
+\bibcite{tieleman2012lecture}{{16}{2012}{{Tieleman \& Hinton}}{{Tieleman and Hinton}}}
+\bibcite{vanhoucke2011improving}{{17}{2011}{{Vanhoucke et~al.}}{{Vanhoucke, Senior, and Mao}}}
+\bibcite{wu2015deep}{{18}{2015}{{Wu et~al.}}{{Wu, Yan, Shan, Dang, and Sun}}}
+\bibstyle{iclr2016_conference}

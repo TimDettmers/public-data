@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Data parallelism}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Model parallelism}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{General bottlenecks}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{PCIe switches}{subsection.2.3}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Bandwidth and latency}{subsection.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Optimal parallelism in convolutional nets}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{8-bit approximation}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Designing 8-bit data types}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Implementation and computational performance}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Speedup}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Approximation error}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.5}{Improved performance}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Comparison to other methods}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Dynamic fixed point}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{1-bit quantization}{section.4}% 17

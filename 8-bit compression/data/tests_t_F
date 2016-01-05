@@ -1,0 +1,7 @@
+data parallel:
+F-Test: F(4,4) = 0.709926141279, p = 0.59065933004 
+variance, normality, confidence intervals overlap
+
+model parallel:
+F-Test: F(4,4) = 0.535767107963, p = 0.710334440184
+variance, normality, confidence intervals overlap

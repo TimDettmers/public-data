@@ -1,0 +1,187 @@
+max bandwidth matrix multiplication -> make some tests and look at timing compared to theoretical estimates
+pcie bandwidth and message considerations
+
+pcie latency
+latency between kernels neglegtible
+
+network latency
+network messages
+network bandwidth
+
+network architecture
+layer level calculation
+model + data parallel calculation
+
+
+
+2% theoretical flops
+operations: iters*dim1*dim_inner*dim_outer/(6144.*1000*1000*1000)*multiplier = seconds
+
+256: 24
+512: 12
+1024: 6
+2048: 3
+4096: 3
+
+
+
+42ms / 135ms
+
+9216->4096: 2.3ms
+4096->4096: 1.05ms
+4096->1000: 0.512ms
+1000 softmax: 0.1ms
+
+forward: 2.3+1.05+0.512+0.1 =  3.96ms
+
+//parallel
+9216->4096: 1.2ms
+4096->4096: 0.525ms
+4096->1000: 0.13ms
+1000 softmax: 0.1ms
+
+forward: 1.2+0.5+0.13+0.1 =  1.93ms
+
+forward to fc: = 42 - 2.3 - 1 - 0.5 - 0.1 = 38.1 approx 38ms
+
+128x9216*4 = 0.0044GB -> 0.88s at 5GB/s -> 4 transfers with 0.01ms latency-> 3.5ms
+128x1096*4 = 0.?GB -> 0.07ms at 5GB/s -> 4 transfers with 0.01ms latency-> 0.45ms
+128x1096*4 = 0.?GB -> 0.07ms at 5GB/s -> 4 transfers with 0.01ms latency-> 0.45ms
+128x256*4 = 0.?GB -> 0.017s at 3.5GB/s -> 4 transfers with 0.005ms latency-> 0.15ms
+
+
+good approximation just look at the first layer
+
+backward:
+
+transfer times same as forward pass:
+
+128x9216*4 = 0.0044GB -> 0.88s at 5GB/s -> 4 transfers with 0.01ms latency-> 3.5ms
+128x1096*4 = 0.?GB -> 0.07ms at 5GB/s -> 4 transfers with 0.01ms latency-> 0.45ms
+128x1096*4 = 0.?GB -> 0.07ms at 5GB/s -> 4 transfers with 0.01ms latency-> 0.45ms
+128x256*4 = 0.?GB -> 0.017s at 3.5GB/s -> 4 transfers with 0.005ms latency-> 0.15ms
+
+total transfer time: 0.9ms*6 + 3*(3ms - 1.2ms(overlap)) + 6*(1.93/10*6) = 18ms
+
+> 177/(177+3*(3+0.9)+(1.8*3)+(0.4))*4
+
+total convolutional parameters: 
+2332704*4*1024^-3 -> 7ms time
+
+
+9216 output into fc layer
+
+alex net times:
+forward
+64*11*11*3: 4
+192*5*5*64: 10
+384*3*3*192: 5
+256*3*3*384: 6.5
+256*3*3*256: 4
+9216 output, 3072 fc
+
+backward:
+96*11*11*3: 1
+256*5*5*48: 10
+384*3*3*256: 6
+384*3*3*192: 5.5
+256*3*3*192: 4
+
+update:
+96*11*11*3: 3.5
+256*5*5*48: 11
+384*3*3*256: 5
+384*3*3*192: 6.5
+256*3*3*192: 5
+
+old:
+forward fc: 1.6 / 0.5 / 0.5
+backward fc: 0.15 / 0.4 / 1.2
+update fc: 0.2 / 0.5 / 1.5
+
+new:
+forward fc: 1.33 / 0.457 / 0.41
+update fc: 0.2 / 0.5 / 1.5
+
+parallel 4:
+forward fc: 1.18 / 0.40 / 0.5
+update fc: 0.08 / 0.125 / 0.425
+
+parallel 24:
+forward fc: 1.21 / 0.40 / 0.12
+update fc: 0.008 / 0.02 / 0.0625
+
+cublas
+normal 1:
+forward fc: 1.32 / 0.434/ 0.35
+update fc: 0.2 / 0.5 / 1.5
+
+parallel 4:
+forward fc: 0.93 / 0.30 / 0.15
+update fc: 0.08 / 0.125 / 0.425
+
+parallel 24:
+forward fc: 0.2 / 0.10 / 0.08
+update fc: 0.008 / 0.02 / 0.0625
+
+parallel 32:
+forward fc: 0.1 / 0.082 / 0.08
+update fc: 0.008 / 0.02 / 0.078
+
+size params:
+8.654596e-05
+0.001144409
+0.002471924
+0.003295898
+0.002197266
+activations:
+
+0.004394531
+0.001464844
+0.001464844
+0.0004768372
+
+
+0.001098633
+0.0003662109
+0.0003662109
+0.0001192093
+
+transfer rate:
+3.5
+5
+5.1
+5.15
+5.1
+activations:
+5
+4.6
+4.6
+4
+
+(x*2*1000/5/b)+ (x*3*1000/5/b) + 23*(x/1000/6/b) + 23*(0.2)
+
+> x=0.002471924
+3k messages pcie n/k + 2k n/k messages infiniband + 2*nodes latency
+> (3*x/5*1000) + (2*x/6*1000) + 48*0.04
+[1] 4.227129
+5k messages pcie n/k + 2k n/k messages infiniband + 2*nodes latency
+> (5*x/5*1000) + (2*x/6*1000) + 48*0.04
+
+
+one message pcie + 2 double-sized messages to infiniband  + 23 times infiniband + 23 times infiniband latency
+> (x*1*1000/5/b)+ (2*x*2*1000/5/b) + 23*(x*1000/6/b) + 23*(1)
+
+two message pcie + 3 triple-sized messages to infiniband  + 23 times infiniband + 23 times infiniband latency
+> (x*2*1000/5/b)+ (3*x*3*1000/5/b) + 23*(x*1000/6/b) + 23*(0.2)
+
+
+
+
+> 416.4/(104.1-6.5+4*4.64+0.9+(0.3+0.3+0.1)*2)
+[1] 3.515111
+> 708/(177-6.5+4*4.64+0.9+(0.3+0.3+0.1)*2)
+[1] 3.699833
+> 416.4/(104.1-6.5+4*4.64+0.45+(0.3+0.3+0.1))
+[1] 3.54957
+> 708/(177-6.5+4*4.64+0.45+(0.3+0.3+0.1))

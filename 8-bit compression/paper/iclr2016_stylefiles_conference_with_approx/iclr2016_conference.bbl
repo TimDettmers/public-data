@@ -1,0 +1,124 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chilimbi et~al.(2014)Chilimbi, Suzue, Apacible, and
+  Kalyanaraman]{chilimbi2014project}
+Chilimbi, Trishul, Suzue, Yutaka, Apacible, Johnson, and Kalyanaraman, Karthik.
+\newblock Project adam: Building an efficient and scalable deep learning
+  training system.
+\newblock In \emph{11th USENIX Symposium on Operating Systems Design and
+  Implementation (OSDI 14)}, pp.\  571--582, 2014.
+
+\bibitem[Ciresan et~al.(2012)Ciresan, Meier, and Schmidhuber]{ciresan2012multi}
+Ciresan, Dan, Meier, Ueli, and Schmidhuber, J{\"u}rgen.
+\newblock Multi-column deep neural networks for image classification.
+\newblock In \emph{Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}, pp.\  3642--3649. IEEE, 2012.
+
+\bibitem[Coates et~al.(2013)Coates, Huval, Wang, Wu, Catanzaro, and
+  Andrew]{coates2013deep}
+Coates, Adam, Huval, Brody, Wang, Tao, Wu, David, Catanzaro, Bryan, and Andrew,
+  Ng.
+\newblock Deep learning with cots hpc systems.
+\newblock In \emph{Proceedings of the 30th international conference on machine
+  learning}, pp.\  1337--1345, 2013.
+
+\bibitem[Collobert et~al.(2011)Collobert, Kavukcuoglu, and
+  Farabet]{collobert2011torch7}
+Collobert, Ronan, Kavukcuoglu, Koray, and Farabet, Cl{\'e}ment.
+\newblock Torch7: A matlab-like environment for machine learning.
+\newblock In \emph{BigLearn, NIPS Workshop}, number EPFL-CONF-192376, 2011.
+
+\bibitem[Courbariaux et~al.(2014)Courbariaux, Bengio, and
+  David]{courbariaux2014low}
+Courbariaux, Matthieu, Bengio, Yoshua, and David, Jean-Pierre.
+\newblock Low precision arithmetic for deep learning.
+\newblock \emph{arXiv preprint arXiv:1412.7024}, 2014.
+
+\bibitem[Dahl et~al.(2012)Dahl, Yu, Deng, and Acero]{dahl2012context}
+Dahl, George~E, Yu, Dong, Deng, Li, and Acero, Alex.
+\newblock Context-dependent pre-trained deep neural networks for
+  large-vocabulary speech recognition.
+\newblock \emph{Audio, Speech, and Language Processing, IEEE Transactions on},
+  20\penalty0 (1):\penalty0 30--42, 2012.
+
+\bibitem[Dean et~al.(2012)Dean, Corrado, Monga, Chen, Devin, Mao, Senior,
+  Tucker, Yang, Le, et~al.]{dean2012large}
+Dean, Jeffrey, Corrado, Greg, Monga, Rajat, Chen, Kai, Devin, Matthieu, Mao,
+  Mark, Senior, Andrew, Tucker, Paul, Yang, Ke, Le, Quoc~V, et~al.
+\newblock Large scale distributed deep networks.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pp.\
+  1223--1231, 2012.
+
+\bibitem[Goodfellow et~al.(2013)Goodfellow, Warde-Farley, Mirza, Courville, and
+  Bengio]{goodfellow2013maxout}
+Goodfellow, Ian~J, Warde-Farley, David, Mirza, Mehdi, Courville, Aaron, and
+  Bengio, Yoshua.
+\newblock Maxout networks.
+\newblock \emph{arXiv preprint arXiv:1302.4389}, 2013.
+
+\bibitem[Hochreiter \& Schmidhuber(1997)Hochreiter and
+  Schmidhuber]{hochreiter1997long}
+Hochreiter, Sepp and Schmidhuber, J{\"u}rgen.
+\newblock Long short-term memory.
+\newblock \emph{Neural computation}, 9\penalty0 (8):\penalty0 1735--1780, 1997.
+
+\bibitem[Hochreiter et~al.(2001)Hochreiter, Bengio, Frasconi, and
+  Schmidhuber]{hochreiter2001gradient}
+Hochreiter, Sepp, Bengio, Yoshua, Frasconi, Paolo, and Schmidhuber, J{\"u}rgen.
+\newblock Gradient flow in recurrent nets: the difficulty of learning long-term
+  dependencies, 2001.
+
+\bibitem[Krizhevsky(2014)]{krizhevsky2014one}
+Krizhevsky, Alex.
+\newblock One weird trick for parallelizing convolutional neural networks.
+\newblock \emph{arXiv preprint arXiv:1404.5997}, 2014.
+
+\bibitem[Krizhevsky et~al.(2012)Krizhevsky, Sutskever, and
+  Hinton]{krizhevsky2012imagenet}
+Krizhevsky, Alex, Sutskever, Ilya, and Hinton, Geoffrey~E.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In \emph{Advances in neural information processing systems}, pp.\
+  1097--1105, 2012.
+
+\bibitem[Rumelhart et~al.(1988)Rumelhart, Hinton, and
+  Williams]{rumelhart1988learning}
+Rumelhart, David~E, Hinton, Geoffrey~E, and Williams, Ronald~J.
+\newblock Learning representations by back-propagating errors.
+\newblock \emph{Cognitive modeling}, 5:\penalty0 3, 1988.
+
+\bibitem[Schmidhuber(2015)]{schmidhuber2015deep}
+Schmidhuber, J{\"u}rgen.
+\newblock Deep learning in neural networks: An overview.
+\newblock \emph{Neural Networks}, 61:\penalty0 85--117, 2015.
+
+\bibitem[Seide et~al.(2014)Seide, Fu, Droppo, Li, and Yu]{seide20141}
+Seide, Frank, Fu, Hao, Droppo, Jasha, Li, Gang, and Yu, Dong.
+\newblock 1-bit stochastic gradient descent and its application to
+  data-parallel distributed training of speech dnns.
+\newblock In \emph{Fifteenth Annual Conference of the International Speech
+  Communication Association}, 2014.
+
+\bibitem[Tieleman \& Hinton(2012)Tieleman and Hinton]{tieleman2012lecture}
+Tieleman, Tijmen and Hinton, Geoffrey.
+\newblock Lecture 6.5-rmsprop: Divide the gradient by a running average of its
+  recent magnitude.
+\newblock \emph{COURSERA: Neural Networks for Machine Learning}, 4, 2012.
+
+\bibitem[Vanhoucke et~al.(2011)Vanhoucke, Senior, and
+  Mao]{vanhoucke2011improving}
+Vanhoucke, Vincent, Senior, Andrew, and Mao, Mark~Z.
+\newblock Improving the speed of neural networks on cpus.
+\newblock In \emph{Proc. Deep Learning and Unsupervised Feature Learning NIPS
+  Workshop}, volume~1, 2011.
+
+\bibitem[Wu et~al.(2015)Wu, Yan, Shan, Dang, and Sun]{wu2015deep}
+Wu, Ren, Yan, Shengen, Shan, Yi, Dang, Qingqing, and Sun, Gang.
+\newblock Deep image: Scaling up image recognition.
+\newblock \emph{arXiv preprint arXiv:1501.02876}, 2015.
+
+\end{thebibliography}

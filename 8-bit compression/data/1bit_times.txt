@@ -1,0 +1,18 @@
+1bit_times
+
+1024x1024: 
+0.1014ms quant (9.670258e-08)
+0.0287ms dequant (2.737045e-08)
+
+5120x5120: 
+2.437 quant (9.296417e-08)
+0.535ms dequant (2.040863e-08)
+
+8bit:
+1024x1024:
+0.0990ms compress (9.441376e-08)
+0.0496ms decompress (4.730225e-08)
+
+5120x5120: 
+2.729ms compress (1.041031e-07)
+1.335ms decompress (5.092621e-08)

@@ -1,0 +1,49 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background}{2}{section.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Data parallelism}{2}{subsection.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Model parallelism}{2}{subsection.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}General bottlenecks}{3}{subsection.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Bandwidth and latency}{3}{subsubsection.2.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}PCIe switches}{3}{subsubsection.2.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Optimal parallelism in convolutional nets}{3}{section.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}8-bit approximation}{4}{section.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Designing 8-bit data types}{4}{subsection.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Implementation and computational performance}{4}{subsection.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Binary tree that replaces the mantissa. Each left-right decision represents one bit.\relax }}{5}{figure.caption.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Anatomy of the three different 8-bit data types. Note that the dynamic data type shown here is a specific example and the number of bits for exponent and for the tree varies between individual numbers.\relax }}{5}{figure.caption.2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:untitled}{{2}{5}{Anatomy of the three different 8-bit data types. Note that the dynamic data type shown here is a specific example and the number of bits for exponent and for the tree varies between individual numbers.\relax }{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Approximation error}{7}{subsection.4.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Mean absolute and relative error from a sample of size 25 million drawn from normal distributions $N(\unhbox \voidb@x \hbox {mean},\unhbox \voidb@x \hbox {variance})$, and the uniform distribution $U(0,1)$. The approximation of $N(0,10^2)$ was done by using an exponent offset of $10^2$ while other numbers used an exponent offset of $10^1$. For the dynamic tree the sample was divided by the maximum absolute value and then denormalized after compression.\relax }}{7}{table.1}}
+\newlabel{tab:title}{{1}{7}{Mean absolute and relative error from a sample of size 25 million drawn from normal distributions $N(\mbox {mean},\mbox {variance})$, and the uniform distribution $U(0,1)$. The approximation of $N(0,10^2)$ was done by using an exponent offset of $10^2$ while other numbers used an exponent offset of $10^1$. For the dynamic tree the sample was divided by the maximum absolute value and then denormalized after compression.\relax }{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Average classification test error for model parallel training of five 784x1024x1024x10 neural networks with logistic units. For each run, the neural networks were randomly initialized; dropout (0.2,0.5,0.5) and RMSProp was used.\relax }}{8}{figure.caption.3}}
+\newlabel{fig:untitled}{{3}{8}{Average classification test error for model parallel training of five 784x1024x1024x10 neural networks with logistic units. For each run, the neural networks were randomly initialized; dropout (0.2,0.5,0.5) and RMSProp was used.\relax }{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Average classification test error for data parallel training; here the same training parameters were used as in model parallel training in Figure 3.\relax }}{8}{figure.caption.4}}
+\newlabel{fig:untitled}{{4}{8}{Average classification test error for data parallel training; here the same training parameters were used as in model parallel training in Figure 3.\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Classification train and test error for the 8-bit dynamic data type used in AlexNet on the ImageNet dataset.\relax }}{9}{figure.caption.5}}
+\newlabel{fig:untitled}{{5}{9}{Classification train and test error for the 8-bit dynamic data type used in AlexNet on the ImageNet dataset.\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Speedup}{10}{subsection.4.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Average transfer time for 1-bit quantization and 8-bit approximation compared to 32-bit transfers. \relax }}{10}{figure.caption.6}}
+\newlabel{fig:untitled}{{6}{10}{Average transfer time for 1-bit quantization and 8-bit approximation compared to 32-bit transfers. \relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Comparison to other methods}{10}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Linear quantization}{10}{subsection.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Dynamic fixed point}{11}{subsection.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}1-bit quantization}{11}{subsection.5.3}}

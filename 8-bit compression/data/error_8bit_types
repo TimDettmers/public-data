@@ -1,0 +1,271 @@
+75 epochs, no dropout decay
+
+rel error 8 bit standard mnist model parallelism:
+0.0663943+
+0.0703147+
+0.0819108
+
+rel error 8 bit standard times 10 mnist model parallelism:
+0.0511572+
+0.0557686+
+0.0713328
+
+rel error 8 bit standard times 100 mnist model parallelism:
+0.0492248
+0.0514628
+0.0719531
+
+
+rel error 8 bit mnist model parallelism:
+0.0295884+
+0.0277506+
+0.0147806
+
+
+rel error 8 bit optimal mnist model parallelism: 
+0.0431613
+0.0455864
+0.0612717
+
+rel error 8 bit optimal times 10 mnist model parallelism: 
+0.0409401+
+0.0432474+
+0.0543859
+
+--------------------
+75 epochs, no dropout decay
+
+
+
+rel error 8 bit standard mnist data parallelism:
+0.027408+
+0.0416296+
+0.0418622
+
+rel error 8 bit mnist data parallelism:
+0.0378276+
+0.0670188+
+0.0558949
+
+
+rel error 8 bit optimal mnist data parallelism: 
+0.026878+
+0.0403258+
+0.0412843
+
+
+
+
+rel error 8 bit linear mnist data parallelism: 
+0.0198143
+0.0311316
+0.0259747
+
+0.302653
+0.364911
+0.542079
+
+
+
+
+abs error
+-----------------------------
+
+
+
+abs error 8 bit standard mnist data parallelism:
+3.25347e-05+
+1.09581e-05+
+0.000914672
+
+
+abs error 8 bit optimal mnist data parallelism:
+3.07305e-05+
+1.01936e-05+
+0.000994635
+
+
+abs error 8 bit mnist data parallelism: 
+1.03883e-06+
+2.91426e-07+
+2.60244e-05
+
+
+abs error 8 bit linear mnist data parallelism: 
+1.96201e-05
+2.21623e-06
+0.00172428
+
+
+
+------------
+abs error 8 bit standard mnist model parallelism:
+3.17768
+4.77993
+269.784
+
+abs error 8 bit mnist model parallelism:
+0.0577596+
+0.050917+
+0.637228
+
+
+abs error 8 bit optimal mnist model parallelism: 
+3.29166
+4.73489
+321.352
+
+abs error 8 bit linear mnist model parallelism: 
+0.0597198+
+0.07848+
+554.617
+
+abs error 8 bit standard times 10 mnist model parallelism:
+1.94627
+3.29873
+17.1975
+
+abs error 8 bit standard times 100 mnist model parallelism:
+1.57192+
+2.46132+
+17.875
+
+abs error 8 bit optimal times 100 mnist model parallelism:
+0.743477+
+1.1123+
+13.617
+
+
+one interval time:
+1024x1024: default: 68.086014 ms.
+3x3x192:default: 47.479809 ms.
+
+
+
+RECTIFIED LINEAR
+--------------------------------------------------------
+
+
+data parallelism
+------------------
+
+rel error 8-bit:
+0.0313083
+0.0379965
+0.0537042
+
+abs error 8-bit:
+0.00055734
+0.00440688
+0.944149
+
+
+--
+
+rel error linear quant:
+0.0515593
+0.0571204
+0.0578542
+
+abs errro linear quant
+0.000948308
+0.0139275
+1.24052
+
+
+
+--
+
+abs error 8-bit standard:
+0.0201301
+0.0992024
+54.8417
+
+
+rel error 8-bit standard:
+0.0451929
+0.0466183
+0.0576793
+
+--
+
+rel error 8-bit optimal:
+0.0407724
+0.042811
+01.0560923
+
+
+abs error 8-bit optimal:
+0.01056
+0.0436894
+24.1078
+
+
+
+model parallelism
+------------------
+
+rel error 8-bit:
+0.00544795
+0.0196377
+0.0198188
+
+
+abs error 8-bit:
+0.0249865
+2.01301
+3321.09
+
+
+--
+
+rel error linear quant:
+0.0117998
+0.0225826
+0.0274257
+
+
+abs errro linear quant
+0.0200609
+2.61575
+3387.28
+
+
+--
+
+abs error 8-bit standard:
+1.01651
+69.7157
+265008
+
+
+rel error 8-bit standard:
+0.0142199
+0.0221974
+0.0766027
+
+--
+
+abs error 8-bit optimal:
+0.445841
+49.8232
+187415
+
+
+rel error 8-bit optimal:
+0.0106121
+0.0202191
+0.0615903
+
+
+
+LOGISTIC
+
+----------------
+
+MODEL
+------------------
+linear abs:
+1.00006e-05
+1.97043e-06
+0.256622

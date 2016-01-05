@@ -1,0 +1,6 @@
+8 bit papers
+
+
+Improving the speed of neural networks on CPUs: http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/37631.pdf
+[equivalent to max magnitude normalized 0 exponent compression]
+LOW PRECISION ARITHMETIC FOR DEEP LEARNING: http://arxiv.org/pdf/1412.7024v2.pdf

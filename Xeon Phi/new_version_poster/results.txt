@@ -1,0 +1,46 @@
+Loaded csv file /home/dettmers/data/y.csv with 70000 and 1 columns.
+time t matrix: 0.01019
+time forward dot full: 3.28393
+time forward dot 1200 only: 1.35003
+time forward dot full + 3x1200: 4.28871
+time forward dot 784: 0.544274
+time forward dot 1200: 0.614975
+time forward dot 10: 0.327916
+time forward dot 784 + 1200: 0.967687
+time forward dot 1200 + 10: 2.60943
+time forward dot 784 + 10: 2.69104
+random same size: 2.3007
+random same size: 3.85599
+
+
+gpu
+
+softmax: 0.099360 ms.
+Loaded csv file /home/dettmers/data/y.csv with 0 and 1 columns.
+t matrix: 3.775488 ms.
+forward dot full: 0.002080 ms.
+forward dot 1200 only: 0.008192 ms.
+time forward dot full + 3x1200: : 0.012416 ms.
+time forward dot 784: : 0.004064 ms.
+time forward dot 1200: : 0.004096 ms.
+time forward dot 10 : 0.004128 ms.
+time forward dot 784 + 1200 : 0.005280 ms.
+time forward dot 1200 + 10 : 0.005120 ms.
+time forward dot 784 + 10 : 0.005152 ms.
+random same size: 509.226013 ms.
+random same size: 445.598724 ms.
+
+
+167sec for 2 epochs (xeon phi half data)
+183sec for 2 epochs (xeon phi with MPI)
+1306 for 2 epochs with random functions
+
+
+66sec for 2 epoch (xeon phi full data)
+892sec for 2 epoch (xeon phi full data + dropout)
+54sec for 2 epochs (2 xeon phi, full data)
+34sec for 2 epochs (4 xeon phi, full data)
+27sec for 2 epochs (8 xeon phi, full data)
+22sec for 2 epochs (16 xeon phi, full data)
+
+
